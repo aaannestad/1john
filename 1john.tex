@@ -1,0 +1,46 @@
+\documentclass[article]{memoir}%probably there's a better one somewhere
+
+\usepackage{fontspec}
+\setmainfont{Coelacanth}
+
+\usepackage[perpage]{footmisc}
+\usepackage{dblfnote}
+
+\newcounter{vnum}
+\setcounter{vnum}{1}
+
+\makechapterstyle{hangnum}{%
+	\renewcommand*{\chapnumfont}{\chaptitlefont}
+	% allow for 99 chapters!
+	\settowidth{\chapindent}{\chapnumfont 999}
+	\renewcommand*{\printchaptername}{}
+	\renewcommand*{\chapternamenum}{}
+	\renewcommand*{\chapnumfont}{\chaptitlefont}
+	\renewcommand*{\printchapternum}{%
+		\noindent\llap{\makebox[\chapindent][l]{%
+				\chapnumfont \thechapter}}}
+	\renewcommand*{\afterchapternum}{}
+	\renewcommand*{\afterchaptertitle}{}
+	\setcounter{vnum}{1}
+}
+
+\chapterstyle{hangnum}
+	
+\newcommand{\vnum}{%
+	\textsuperscript{\thevnum}%
+	\addtocounter{vnum}{1}%
+}
+\newcommand{\infer}[1]{\textit{#1}}
+\renewcommand{\thefootnote}{\alph{footnote}}
+
+\renewcommand*{\book}[1]{#1}
+
+\begin{document}
+	
+\book{1 John}
+	
+\chapter{} \vnum What was from the beginning,\footnote{Or ‘from the authority’ (as in sovereignty, rulership)} what we heard, what we saw with our eyes, what we watched and our hands handled, concerning the Message\footnote{Or ‘System’, or ‘Logic’, or ‘Argument’} of life---\vnum and the life was revealed,\footnote{Or `made real', or `made conspicuous/remarkable'; and hereafter} and we have seen and give testimony, and we report also to you\footnote{Plural, and hereafter} the eternal life which was beside\footnote{Literally ‘up against’} the Father and was revealed to us---\vnum that which we have seen and heard, we report to you, so that you can have partnership with us. But indeed our partnership \infer{is} together with the Father, and together with His Son, Jesus the Anointed One. \vnum And we write these things to you so that our joy can be filled up.
+
+\chapter{} test text
+
+\end{document}
