@@ -1,10 +1,14 @@
 \documentclass[article]{memoir}%probably there's a better one somewhere
 
+\usepackage{perpage}
+\MakePerPage{footnote}
+
 \usepackage{fontspec}
 \setmainfont{Coelacanth}
 
 \usepackage[perpage]{footmisc}
-%\usepackage{dblfnote}
+\usepackage{dblfnote}
+\DFNalwaysdouble
 
 \newcounter{vnum}
 \setcounter{vnum}{1}
@@ -16,6 +20,7 @@
 	\noindent\llap{\makebox[\chapindent][l]{%
 		\chapnumfont \thechapter}}%
 	\addtocounter{chapter}{1}
+	\setcounter{vnum}{1}
 }
 	
 \newcommand{\vnum}{%
@@ -30,6 +35,7 @@
 	\makebox[\textwidth][c]{\centering \booktitlefont #1}%\textwidth could apparently be replaced with something better here 
 }
 
+
 \begin{document}
 
 \book{1 John}
@@ -37,5 +43,24 @@
 \chapter{} \vnum What was from the beginning,\footnote{Or ‘from the authority’ (as in sovereignty, rulership)} what we heard, what we saw with our eyes, what we watched and our hands handled, concerning the Message\footnote{Or ‘System’, or ‘Logic’, or ‘Argument’} of life---\vnum and the life was revealed,\footnote{Or `made real', or `made conspicuous/remarkable'; and hereafter} and we have seen and give testimony, and we report also to you\footnote{Plural, and hereafter} the eternal life which was beside\footnote{Literally ‘up against’} the Father and was revealed to us---\vnum that which we have seen and heard, we report to you, so that you can have partnership with us. But indeed our partnership \infer{is} together with the Father, and together with His Son, Jesus the Anointed One. \vnum And we write these things to you so that our joy can be filled up.
 
 \vnum And \focus{this} is the report that we have heard from Him, and \infer{that} we report\footnote{Or `proclaim', or `bring news of'} to you: that God is light, and \infer{as for} darkness inside Him, there is none at all.\footnote{Lit. `there is not none'; a negative concord construction} \vnum If we were to say that that we have partnership with Him and \infer{yet} walk about in the darkness, we are lying and are not practising\footnote{Or `doing', or `engaging in', or perhaps `bringing about'} the truth. \vnum If, though, we are walking about in the light, as He is in the light, we have partnership with each other, and the blood of Jesus His Son cleans\footnote{Or `prunes', or `sifts'; and hereafter} us from all sin. \vnum If we should say that we do not have sin, we lead ourselves astray, and the truth is not in us. \vnum If we acknowledge our sins, God is faithful and righteous\footnote{Or `just', or `dutiful'} so that He can release us from \infer{our} sins and clean us from all unrighteousness.\footnote{Or `unjustness', or `wrongdoing'} \vnum If we were to say that we have not sinned, we make\footnote{\textit{Poioumen}; the same verb as `practice' above} Him a liar, and His word is not in us.
+
+\chapter {} \vnum My little children, I am writing these things to you so that you will not sin. And if anyone does sin, we have an Advocate\footnote{A technical legal term} beside the Father, Jesus the righteous Anointed One. \vnum And he is the appeasement in regard to our sins; not only in regard to ours, but to the entire world. \vnum And in this we know that we have known him, if we keep his commands. \vnum The one who says `I have known him' and does not keep his commandments is a liar, and in him the truth is not present. \vnum But whoever would keep his system\footnote{The same word as `message' above}, truly in him the love of God	 has been fulfilled\footnote{Or `accomplished', or `perfected'}. By this we know that we \focus{are} in him---\vnum{}the one who claims to remain in him is obligated to, just as he in that way walked about, in the same way walk about.
+
+\vnum Loved ones, I am not writing to you a new\footnote{\textit{Kainén}, or 'fresh'; not \textit{neén} 'new, young'} commandment, but an old commandment, which you have had from the beginning.\footnote{The same 'beginning' as in v1} The old commandment is the message that you heard. \vnum On the other hand, it is a new commandment that I am writing to you, which is true in him and in you, because the darkness is passing away, and the true light is already shining. \vnum The one who claims to be in the light but hates his brother---he is in the darkness until now. \vnum The one who loves his brother---he remains in the light and there is no trap in him. \vnum But the one who hates his brother---he is in the darkness and walks about in the darkness; and he does not know where he is going off to, because the darkness has blinded his eyes.
+
+\indent \vnum I am writing to you, children,\\
+\indent \indent because \infer{your} sins have been forgiven for you for the sake of his name.\footnote{A reference to Hebrew idiomatic uses of `name'} \\
+\indent \vnum I am writing to you, fathers,\\
+\indent \indent because you have known the \infer{one who is} from the beginning.\\
+\indent I am writing to you, young men,\\
+\indent \indent because you have overcome the evil \infer{one}.\\
+\indent I wrote to you, little ones,\footnote{Literally `children', but a different word from that in v.12}\\
+\indent \indent because you have known the Father.\\
+\indent \vnum I wrote to you, fathers,\\
+\indent \indent because you have known the \infer{one who is} from the beginning.\\
+\indent I wrote to you, young men,\\
+\indent \indent because you are strong,\\
+\indent \indent \indent and the Message of God remains in you,\\
+\indent \indent \indent and you have defeated the evil \infer{one}.
 
 \end{document}
