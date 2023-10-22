@@ -1,4 +1,123 @@
 This is makeindex, version 2.15 [TeX Live 2022/dev] (kpathsea + Thai support).
-Scanning input file 1john.idx...done (0 entries accepted, 0 rejected).
+Scanning input file 1john.tex...
+!! Input index error (file = 1john.tex, line = 1):
+   -- Unknown index keyword \documentclass[article].
+!! Input index error (file = 1john.tex, line = 3):
+   -- Unknown index keyword \usepackage.
+!! Input index error (file = 1john.tex, line = 4):
+   -- Unknown index keyword \MakePerPage.
+!! Input index error (file = 1john.tex, line = 6):
+   -- Unknown index keyword \usepackage.
+!! Input index error (file = 1john.tex, line = 7):
+   -- Unknown index keyword \setmainfont.
+!! Input index error (file = 1john.tex, line = 9):
+   -- Unknown index keyword \usepackage[perpage].
+!! Input index error (file = 1john.tex, line = 10):
+   -- Unknown index keyword \usepackage.
+!! Input index error (file = 1john.tex, line = 11):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 1john.tex, line = 13):
+   -- Unknown index keyword \newcounter.
+!! Input index error (file = 1john.tex, line = 14):
+   -- Unknown index keyword \setcounter.
+!! Input index error (file = 1john.tex, line = 15):
+   -- Unknown index keyword \setcounter.
+!! Input index error (file = 1john.tex, line = 17):
+   -- Unknown index keyword \renewcommand*.
+!! Input index error (file = 1john.tex, line = 18):
+   -- Unknown index keyword \vspace.
+!! Input index error (file = 1john.tex, line = 19):
+   -- Unknown index keyword \settowidth.
+!! Input index error (file = 1john.tex, line = 20):
+   -- Unknown index keyword \noindent\llap.
+!! Input index error (file = 1john.tex, line = 21):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 1john.tex, line = 22):
+   -- Unknown index keyword \addtocounter.
+!! Input index error (file = 1john.tex, line = 23):
+   -- Unknown index keyword \setcounter.
+!! Input index error (file = 1john.tex, line = 24):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 1john.tex, line = 26):
+   -- Unknown index keyword \newcommand.
+!! Input index error (file = 1john.tex, line = 27):
+   -- Unknown index keyword \textsuperscript.
+!! Input index error (file = 1john.tex, line = 28):
+   -- Unknown index keyword \addtocounter.
+!! Input index error (file = 1john.tex, line = 29):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 1john.tex, line = 30):
+   -- Unknown index keyword \newcommand.
+!! Input index error (file = 1john.tex, line = 31):
+   -- Unknown index keyword \newcommand.
+!! Input index error (file = 1john.tex, line = 32):
+   -- Unknown index keyword \newcommand.
+!! Input index error (file = 1john.tex, line = 33):
+   -- Unknown index keyword \newcommand.
+!! Input index error (file = 1john.tex, line = 34):
+   -- Unknown index keyword \renewcommand.
+!! Input index error (file = 1john.tex, line = 36):
+   -- Unknown index keyword \renewcommand*.
+!! Input index error (file = 1john.tex, line = 37):
+   -- Unknown index keyword \makebox[\textwidth][c].
+!! Input index error (file = 1john.tex, line = 38):
+   -- Unknown index keyword \setcounter.
+!! Input index error (file = 1john.tex, line = 39):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 1john.tex, line = 41):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 1john.tex, line = 43):
+   -- Unknown index keyword \begin.
+!! Input index error (file = 1john.tex, line = 45):
+   -- Unknown index keyword \book.
+!! Input index error (file = 1john.tex, line = 47):
+   -- Unknown index keyword \chapter.
+!! Input index error (file = 1john.tex, line = 49):
+   -- Unknown index keyword \vnumAnd\focus.
+!! Input index error (file = 1john.tex, line = 51):
+   -- Unknown index keyword \chapter.
+!! Input index error (file = 1john.tex, line = 53):
+   -- Unknown index keyword \vnumLovedones,Iamnotwritingtoyouanew\footnote.
+!! Input index error (file = 1john.tex, line = 55):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 1john.tex, line = 56):
+   -- Unknown index keyword \indent\indentbecause\infer.
+!! Input index error (file = 1john.tex, line = 57):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 1john.tex, line = 58):
+   -- Unknown index keyword \indent\indentbecauseyouhaveknownthe\infer.
+!! Input index error (file = 1john.tex, line = 59):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 1john.tex, line = 60):
+   -- Unknown index keyword \indent\indentbecauseyouhavedefeatedtheevil\infer.
+!! Input index error (file = 1john.tex, line = 61):
+   -- Unknown index keyword \indentIwrotetoyou,children,\footnote.
+!! Input index error (file = 1john.tex, line = 62):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 1john.tex, line = 63):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 1john.tex, line = 64):
+   -- Unknown index keyword \indent\indentbecauseyouhaveknownthe\infer.
+!! Input index error (file = 1john.tex, line = 65):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 1john.tex, line = 66):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 1john.tex, line = 67):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = 1john.tex, line = 68):
+   -- Unknown index keyword \indent\indent\indentandyouhavedefeatedtheevil\infer.
+!! Input index error (file = 1john.tex, line = 70):
+   -- Unknown index keyword \vnumDon'testeem\footnote.
+!! Input index error (file = 1john.tex, line = 72):
+   -- Unknown index keyword \vnumChildren,\footnote.
+!! Input index error (file = 1john.tex, line = 74):
+   -- Unknown index keyword \vnum\infer.
+!! Input index error (file = 1john.tex, line = 76):
+   -- Unknown index keyword \vnumAndnow,children\footnote.
+!! Input index error (file = 1john.tex, line = 78):
+   -- Unknown index keyword \chapter.
+!! Input index error (file = 1john.tex, line = 80):
+   -- Unknown index keyword \end.
+done (0 entries accepted, 59 rejected).
 Nothing written in 1john.ind.
 Transcript written in 1john.ilg.
